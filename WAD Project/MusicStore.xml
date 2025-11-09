@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+<product code="123-45">
+<category>Electronic</category>
+<name>Currents</name>
+<artist>Tame Impala</artist>
+<description>Currents is a Tame Impala album about personal transition and growing older, exploring themes of change, heartbreak, and self-examination after a breakup.</description>
+<quantity>10</quantity>
+<price>14.99</price>
+</product>
+<product code="123-46">
+<category>Electronic</category>
+<name>Deadbeat</name>
+<artist>Tame Impala</artist>
+<description>Deadbeat is Tame Impala's 2025 album, which sees Kevin Parker leaning into dance music, inspired by the Australian "bush doof" rave scene.</description>
+<quantity>15</quantity>
+<price>39.99</price>
+</product>
+<product code="123-47">
+<category>Rock</category>
+<name>AM</name>
+<artist>Arctic Monkeys</artist>
+<description>AM is the 2013 fifth studio album by Arctic Monkeys, noted for its departure from their earlier work with a more groovy, R and B-influenced, and darker sound.</description>
+<quantity>16</quantity>
+<price>14.99</price>
+</product>
+<product code="123-48">
+<category>Rap</category>
+<name>To Pimp a Butterfly</name>
+<artist>Kendrick Lamar</artist>
+<description>To Pimp a Butterfly is a 2015 hip-hop album by Kendrick Lamar that is a fusion of jazz, funk, and soul music, and is critically acclaimed for its complex exploration of themes like racism, identity, depression, and success.</description>
+<quantity>8</quantity>
+<price>14.99</price>
+</product>
+<product code="123-49">
+<category>Rap</category>
+<name>Konnichiwa</name>
+<artist>Skepta</artist>
+<description>Konnichiwa is the fourth studio album by British rapper Skepta, released in 2016</description>
+<quantity>4</quantity>
+<price>14.99</price>
+</product>
+<product code="123-50">
+<category>Rock</category>
+<name>Only By The Night</name>
+<artist>Kings of Leon</artist>
+<description>Only by the Night is the fourth studio album by Kings of Leon, released in September 2008.</description>
+<quantity>2</quantity>
+<price>14.99</price>
+</product>
+<product code="123-51">
+<category>Rock</category>
+<name>The New Abnormal</name>
+<artist>The Strokes</artist>
+<description>"The New Abnormal" is a music album by The Strokes that is both a return to their classic sound and an evolution, blending indie rock with new wave, pop, and electronic elements</description>
+<quantity>12</quantity>
+<price>29.99</price>
+</product>
+<product code="123-52">
+<category>Rock</category>
+<name>Nevermind</name>
+<artist>Nirvana</artist>
+<description>Nevermind is the 1991 second studio album by the American rock band Nirvana, which became a commercial and critical success that launched the band to global fame.</description>
+<quantity>5</quantity>
+<price>14.99</price>
+</product>
+<product code="123-53">
+<category>Soul</category>
+<name>Hozier</name>
+<artist>Hozier</artist>
+<description>Hozier is the self-titled debut album by Irish musician Hozier, released in 2014.</description>
+<quantity>9</quantity>
+<price>14.99</price>
+</product>
+<product code="123-54">
+<category>Rock</category>
+<name>Tranquility Base Hotel and Casino</name>
+<artist>Arctic Monkeys</artist>
+<description>Tranquility Base Hotel and Casino is a concept album by the Arctic Monkeys that is set in a fictional luxury resort on the Moon.</description>
+<quantity>14</quantity>
+<price>14.99</price>
+</product>
+</products>

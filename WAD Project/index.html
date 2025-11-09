@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BeatsMe Records</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <img src="beatsMe.jpg" alt="BeatsMe Records logo" />
+        <h1>BeatsMe Records</h1>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <form
+          id="searchForm"
+          class="search"
+          role="search"
+          aria-label="Search by Code"
+        >
+          <input id="searchInput" type="text" placeholder="Search" />
+          <button type="submit">Search</button>
+        </form>
+
+        <nav class="menu-wrap" aria-label="Sidebar menu">
+          <ul class="menu">
+            <li>
+              <button class="menu-btn" data-action="available">
+                Available
+              </button>
+            </li>
+            <li>
+              <button class="menu-btn" data-action="backorder">
+                Back Order
+              </button>
+            </li>
+            <li>
+              <button class="menu-btn" data-action="currentorders">
+                Current Orders
+              </button>
+            </li>
+            <li>
+              <button class="menu-btn" data-action="deliveryinfo">
+                Delivery Company Details
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <div id="searchResult" aria-live="polite"></div>
+        <div id="albums" class="albums" aria-label="Album grid"></div>
+        <p style="margin-top: 16px"></p>
+        <a href="page2.html">WeatherApp here!</a>
+      </section>
+    </main>
+  </body>
+</html>
