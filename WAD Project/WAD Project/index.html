@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BeatsMe Records</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <img src="beatsMe.jpg" alt="BeatsMe Records logo" />
+        <h1>BeatsMe Records</h1>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar">
+        <nav class="menu-wrap" aria-label="Sidebar menu">
+          <ul class="menu">
+            <li>
+              <button onclick="showAll()">Show Available</button>
+            </li>
+            <li>
+              <button>Back Order</button>
+            </li>
+            <li>
+              <button>Current Orders</button>
+            </li>
+            <li>
+              <button>Delivery Company Details</button>
+            </li>
+          </ul>
+          <p style="margin-top: 16px"></p>
+          <a href="page2.html">WeatherApp here!</a>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <form id="searchForm">
+          <label for="code">Search Product by Code (###-##):</label>
+          <input
+            id="code"
+            name="code"
+            type="text"
+            required
+            pattern="\d{3}-\d{2}"
+            placeholder="123-45"
+          />
+          <button type="submit">Search</button>
+        </form>
+        <div id="message" aria-live="polite"></div>
+        <div id="results"></div>
+      </section>
+    </main>
+  </body>
+</html>
